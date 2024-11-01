@@ -12,7 +12,6 @@ This Project allows the user to automatically translate ck3 (Crusader Kings 3) l
 - [@CyberNord](https://github.com/CyberNord)
 - [@Martin220799](https://github.com/Martin220799)    (Powershell Controls) 
 
-
 ## Installation
 
 #### Requirements
@@ -22,6 +21,23 @@ Before Starting make sure the following libraries are installed.
 - [googletrans 4.0.0rc1](https://libraries.io/pypi/googletrans)
 
 It is important to use the googletrans version 4.0.0rc1 (or higher) older versions will cause the the Program to throw an error.
+
+**Note** as of python 3.13 the `cgi` library used by googletrans has been removed. The `legacy-cgi` library can be used instead.
+
+`pip install legacy-cgi`
+
+#### localise.sh
+
+This script can be used to generate all localization files for a given locale. 
+
+```bash
+./localize.sh en D:\the\path\to\english\loc\folder
+```
+The above converts all the english locale files found in the given location.
+
+Replace `en` with required locale.
+
+For converting individual files see instructions below.
 
 #### First Steps
 Download the project folder from github and unpack it in a Location of your desire. Start a command prompt (e.g. PowerShell) in the path where the main.py is located. 
