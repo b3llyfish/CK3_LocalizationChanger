@@ -1,6 +1,6 @@
 # bin/bash
 
-declare -a locale=("en" "de" "fr" "es" "ru" "zh-cn" "ko")
+declare -a locale=("en" "de" "fr" "es" "ru" "zh-cn" "ko" "pl")
 
 for i in "${locale[@]}"
 do

@@ -23,7 +23,8 @@ def get_loc_code(from_l: bool, pars_arg: str):
         'es': 'spanish',
         'ru': 'russian',
         'zh-cn': 'simp_chinese',
-        'ko': 'korean'
+        'ko': 'korean',
+        'pl': 'polish'
     }
     locale = locale_codes.get(pars_arg)
     if not locale:
