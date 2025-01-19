@@ -11,7 +11,7 @@ DEBUG = False
 INFO = False
 translator = Translator()
 RE_PATTERN = re.compile(r'\[[^"\]]*]|\$[^$]+\$|#[^$]+#|\\n|@[^!]+!')
-REPLACER = '{@}'
+REPLACER = '__0__'
 LINE_STR = '-----------------------------------------'
 # ---------------------------------------------------
 
