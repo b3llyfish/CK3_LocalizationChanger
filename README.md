@@ -1,3 +1,6 @@
+# DEPRECATED
+
+Use https://github.com/JuryReimis/ModTranslationHelper/blob/master/README.md instead
 
 # ck3-Translator
 
